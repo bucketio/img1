@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">专利驳回后陌生代理主动联系风险图</title>
+  <desc id="desc">展示专利驳回信息被陌生代理利用，主动联系申请人并贬损原代理机构的风险链条</desc>
+  <rect width="1200" height="650" fill="#f7f8f4"/>
+  <text x="76" y="86" fill="#17212b" font-size="46" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-weight="800">“驳回后主动找上门”，先别急着换代理</text>
+  <text x="76" y="132" fill="#596777" font-size="24" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif">公开审查信息 + 精准话术 + 贬损原代理 = 典型的不正当招揽风险。</text>
+  <g font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif">
+    <g transform="translate(82 210)">
+      <rect width="260" height="220" rx="14" fill="#ffffff" stroke="#d8e0e7" stroke-width="2"/>
+      <rect x="36" y="34" width="188" height="134" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <rect x="62" y="62" width="136" height="14" rx="7" fill="#94a3b8"/>
+      <rect x="62" y="94" width="96" height="12" rx="6" fill="#cbd5e1"/>
+      <rect x="62" y="124" width="122" height="12" rx="6" fill="#cbd5e1"/>
+      <text x="54" y="198" fill="#17212b" font-size="25" font-weight="800">案件被驳回</text>
+    </g>
+    <path d="M368 320h92" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M450 298l32 22-32 22" fill="none" stroke="#94a3b8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(492 210)">
+      <rect width="260" height="220" rx="14" fill="#ffffff" stroke="#d8e0e7" stroke-width="2"/>
+      <circle cx="88" cy="76" r="38" fill="#dbeafe"/>
+      <path d="M88 42a34 34 0 0134 34v22H54V76a34 34 0 0134-34z" fill="#2563eb" opacity="0.85"/>
+      <circle cx="88" cy="58" r="18" fill="#ffffff"/>
+      <rect x="66" y="128" width="128" height="18" rx="9" fill="#94a3b8"/>
+      <rect x="50" y="160" width="160" height="14" rx="7" fill="#cbd5e1"/>
+      <text x="48" y="198" fill="#17212b" font-size="25" font-weight="800">陌生代理来信</text>
+    </g>
+    <path d="M778 320h92" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M860 298l32 22-32 22" fill="none" stroke="#94a3b8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(902 210)">
+      <rect width="220" height="220" rx="14" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+      <path d="M110 38l64 122H46L110 38z" fill="#f97316"/>
+      <rect x="102" y="82" width="16" height="48" rx="8" fill="#fff7ed"/>
+      <circle cx="110" cy="148" r="9" fill="#fff7ed"/>
+      <text x="45" y="198" fill="#17212b" font-size="25" font-weight="800">诱导转委托</text>
+    </g>
+  </g>
+  <g font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="24">
+    <rect x="150" y="500" width="900" height="72" rx="12" fill="#17212b"/>
+    <text x="196" y="546" fill="#fffdf7">核验原则：由申请人主动选择代理；陌生机构主动围绕具体案件联系并贬损同行，要先查规范和案例。</text>
+  </g>
+</svg>
