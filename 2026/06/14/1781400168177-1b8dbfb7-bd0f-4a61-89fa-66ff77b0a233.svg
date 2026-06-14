@@ -1,0 +1,21 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">16GB 适合普通多任务</title>
+  <desc id="desc">16GB 内存适合聊天办公、浏览网页、文档处理、看视频和轻度创作</desc>
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <text x="70" y="84" fill="#111827" font-size="42" font-weight="700">16GB：普通用户的舒服起点</text>
+    <text x="72" y="130" fill="#475569" font-size="24">办公、上网、聊天、视频和轻度创作，大多能扛住</text>
+    <g transform="translate(120 210)">
+      <rect width="960" height="350" rx="26" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="45" y="62" fill="#111827" font-size="32" font-weight="700">典型日常组合</text>
+      <g font-size="24" fill="#334155">
+        <rect x="50" y="110" width="230" height="70" rx="18" fill="#dbeafe"/><text x="90" y="154">浏览器 10+ 标签</text>
+        <rect x="365" y="110" width="230" height="70" rx="18" fill="#dcfce7"/><text x="425" y="154">微信 / 钉钉</text>
+        <rect x="680" y="110" width="230" height="70" rx="18" fill="#ede9fe"/><text x="740" y="154">Word / Excel</text>
+        <rect x="50" y="220" width="230" height="70" rx="18" fill="#ffedd5"/><text x="110" y="264">在线视频</text>
+        <rect x="365" y="220" width="230" height="70" rx="18" fill="#e0f2fe"/><text x="420" y="264">网课 / 会议</text>
+        <rect x="680" y="220" width="230" height="70" rx="18" fill="#fee2e2"/><text x="735" y="264">简单修图</text>
+      </g>
+    </g>
+  </g>
+</svg>
