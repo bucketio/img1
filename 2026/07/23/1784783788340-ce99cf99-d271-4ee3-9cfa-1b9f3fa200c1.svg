@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">银狐中毒处置流程</title>
+  <desc id="desc">银狐中毒后按断网隔离、保留现场、可信工具查杀、改密核查和必要时重装处理。</desc>
+  <rect width="900" height="430" fill="#ffffff"/>
+  <text x="48" y="65" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#182033">中毒后：先止损，再查杀</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="145" width="135" height="90" rx="18" fill="#edf5ff"/>
+    <text x="78" y="199" font-size="22" font-weight="700" fill="#2f6bd9">断网</text>
+    <path d="M198 190 H238" stroke="#607089" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="250" y="145" width="135" height="90" rx="18" fill="#fff5df"/>
+    <text x="273" y="199" font-size="22" font-weight="700" fill="#946200">留证据</text>
+    <path d="M398 190 H438" stroke="#607089" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="450" y="145" width="135" height="90" rx="18" fill="#e8f7ef"/>
+    <text x="473" y="199" font-size="22" font-weight="700" fill="#24704d">查杀</text>
+    <path d="M598 190 H638" stroke="#607089" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="650" y="145" width="200" height="90" rx="18" fill="#f6f7fb"/>
+    <text x="692" y="199" font-size="22" font-weight="700" fill="#334155">改密核查</text>
+  </g>
+  <rect x="130" y="305" width="640" height="54" rx="27" fill="#202938"/>
+  <text x="186" y="339" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">高价值电脑或无法确认清干净时，重装系统更稳</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7,3 z" fill="#607089"/>
+    </marker>
+  </defs>
+</svg>
