@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" width="112" height="112" role="img" aria-label="智小星 App Logo 02 星杯 动效">
+  <title>智小星 · 02 星杯 · 动效</title>
+  <defs>
+    <linearGradient id="bg-ab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B4F9C"/>
+      <stop offset="55%" stop-color="#1A7A63"/>
+      <stop offset="100%" stop-color="#1F8A4C"/>
+    </linearGradient>
+    <clipPath id="round">
+      <circle cx="56" cy="56" r="56"/>
+    </clipPath>
+    <symbol id="mark-star" viewBox="0 0 36 36">
+      <path d="M18 2 L22.2 13.6 L34.4 14 L24.8 21.4 L28.4 33.2 L18 26.2 L7.6 33.2 L11.2 21.4 L1.6 14 L13.8 13.6 Z"/>
+    </symbol>
+    <style>
+      .m-pulse,
+      .m-twinkle {
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .m-pulse { animation: m-pulse 1.2s ease-in-out infinite; }
+      .m-twinkle { animation: m-twinkle 1.1s ease-in-out infinite; }
+      .m-smile {
+        stroke-dasharray: 36;
+        animation: m-smile 1.3s ease-in-out infinite;
+      }
+      .m-d1 { animation-delay: 0s; }
+      .m-d2 { animation-delay: 0.18s; }
+      .m-d3 { animation-delay: 0.36s; }
+      .m-d4 { animation-delay: 0.54s; }
+      .m-d5 { animation-delay: 0.72s; }
+      @keyframes m-pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.12); }
+      }
+      @keyframes m-twinkle {
+        0%, 100% { opacity: 0.35; transform: scale(0.7); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      @keyframes m-smile {
+        0%, 100% { stroke-dashoffset: 0; }
+        50% { stroke-dashoffset: 28; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .m-pulse,
+        .m-twinkle,
+        .m-smile { animation: none; }
+      }
+    </style>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="112" height="112" fill="url(#bg-ab)"/>
+    <circle class="m-twinkle m-d1" cx="78" cy="16" r="2.2" fill="#fff"/>
+    <circle class="m-twinkle m-d2" cx="90" cy="22" r="1.4" fill="#fff"/>
+    <circle class="m-twinkle m-d3" cx="84" cy="32" r="1.8" fill="#fff"/>
+    <circle class="m-twinkle m-d4" cx="96" cy="36" r="1.1" fill="#fff"/>
+    <circle class="m-twinkle m-d5" cx="72" cy="28" r="1.2" fill="#fff"/>
+    <g class="m-pulse"><use href="#mark-star" x="44" y="10" width="24" height="24" fill="#F4D03F"/></g>
+    <path fill="#fff" d="M34 42 H72 A6 6 0 0 1 78 48 V70 A18 18 0 0 1 60 88 H46 A18 18 0 0 1 28 70 V48 A6 6 0 0 1 34 42 Z"/>
+    <path fill="#fff" d="M78 50 H86 A10 10 0 0 1 86 70 H78 Z"/>
+    <path class="m-smile" d="M42 62 Q53 72 64 62" fill="none" stroke="url(#bg-ab)" stroke-width="3.2" stroke-linecap="round"/>
+  </g>
+</svg>
