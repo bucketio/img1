@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 312" width="760" height="312" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <marker id="ar3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#006241"/>
+    </marker>
+  </defs>
+  <rect width="760" height="312" fill="#fff"/>
+
+  <!-- outer harness frame -->
+  <rect x="8" y="30" width="744" height="244" rx="14" fill="#FBF6EA" stroke="#CBA258" stroke-dasharray="6 4"/>
+  <text x="24" y="52" font-size="13" font-weight="700" fill="#8a6a26">Harness：组织任务、边界、反馈与验证</text>
+  <text x="736" y="52" text-anchor="end" font-size="12" fill="#8a6a26">逻辑职责示意</text>
+
+  <title>Harness 的四类设计职责</title>
+  <g font-size="13" text-anchor="middle">
+    <rect x="20" y="70" width="162" height="124" rx="8" fill="#fff" stroke="#9bc6b4"/>
+    <text x="101" y="100" font-size="17" font-weight="700" fill="#006241">问题契约</text>
+    <text x="101" y="130" fill="#3d4d47">对象、范围与比较基准</text>
+    <text x="101" y="156" fill="#3d4d47">明确决策目标</text>
+    <text x="101" y="181" font-size="12" fill="#55665f">歧义影响结论时先确认</text>
+
+    <rect x="206" y="70" width="162" height="124" rx="8" fill="#fff" stroke="#9bc6b4"/>
+    <text x="287" y="100" font-size="17" font-weight="700" fill="#006241">证据组织</text>
+    <text x="287" y="130" fill="#3d4d47">企业定义与任务方法</text>
+    <text x="287" y="156" fill="#3d4d47">相关知识与个人上下文</text>
+    <text x="287" y="181" font-size="12" fill="#55665f">让依据与适用范围可见</text>
+
+    <rect x="392" y="70" width="162" height="124" rx="8" fill="#fff" stroke="#9bc6b4"/>
+    <text x="473" y="100" font-size="17" font-weight="700" fill="#006241">受控执行</text>
+    <text x="473" y="130" fill="#3d4d47">工具权限与运行边界</text>
+    <text x="473" y="156" fill="#3d4d47">任务进展与资源预算</text>
+    <text x="473" y="181" font-size="12" fill="#55665f">结果反馈支持继续调查</text>
+
+    <rect x="578" y="70" width="162" height="124" rx="8" fill="#006241"/>
+    <text x="659" y="100" font-size="17" font-weight="700" fill="#fff">结果交付</text>
+    <text x="659" y="130" fill="#D4E9E2">验证数字与解释</text>
+    <text x="659" y="156" fill="#D4E9E2">结论、证据与行动含义</text>
+    <text x="659" y="181" font-size="12" fill="#D4E9E2">可保存、追问与继续使用</text>
+  </g>
+
+  <g stroke="#006241" stroke-width="1.6" marker-end="url(#ar3)">
+    <line x1="183" y1="132" x2="204" y2="132"/>
+    <line x1="369" y1="132" x2="390" y2="132"/>
+    <line x1="555" y1="132" x2="576" y2="132"/>
+  </g>
+  <!-- feedback loop: down from 结果交付, across, then straight up into 问题契约 so the arrowhead aligns with the line -->
+  <path d="M659 196 V 222 Q 659 238 643 238 H 117 Q 101 238 101 222 V 199" fill="none" stroke="#006241" stroke-width="1.6" stroke-dasharray="5 4" stroke-linejoin="round" marker-end="url(#ar3)"/>
+  <text x="380" y="262" text-anchor="middle" font-size="12" fill="#006241">反馈连接下一次任务与共同知识资产</text>
+  <text x="380" y="300" text-anchor="middle" font-size="12" fill="#6b7280">硬控制、模型判断与独立验证各司其职，任何一项都不是零错误保证</text>
+</svg>
